@@ -133,3 +133,42 @@ int number = int.Parse(Console.ReadLine());
 bool isEven = number % 2 == 0;
 Console.WriteLine($"isEven: {isEven}");
 
+//Задание 2. Инкремент в выражении ★★
+Console.WriteLine();
+Console.WriteLine("Постфикс и префикс: три ситуации");
+
+// Ситуация 1: использование значения прямо в выражении присваивания
+int x = 5;
+int a = x++; // сначала a получает текущее значение x, и только потом x увеличивается до 6
+Console.WriteLine($"x++ : a = {a}, x теперь = {x}"); // a = 5, x = 6
+
+int y = 5;
+int b = ++y; // сначала y увеличивается до 6, и уже новое значение присваивается b
+Console.WriteLine($"++y : b = {b}, y теперь = {y}"); // b = 6, y = 6
+
+// Ситуация 2: внутри арифметического выражения с несколькими операндами
+int p = 3;
+int result1 = p++ + 10; // p++ отдаёт старое значение 3, потом p становится 4. result1 = 3 + 10 = 13
+Console.WriteLine($"p++ + 10 = {result1}, p теперь = {p}"); // result1 = 13, p = 4
+
+int q = 3;
+int result2 = ++q + 10; // ++q сначала делает q = 4, и уже это новое значение идёт в сумму: 4 + 10 = 14
+Console.WriteLine($"++q + 10 = {result2}, q теперь = {q}"); // result2 = 14, q = 4
+
+// Ситуация 3: внутри условия if (влияет на то, какое значение проверяется)
+int counter1 = 9;
+if (counter1++ < 10) // проверяется СТАРОЕ значение 9 (9 < 10 = true), увеличение происходит ПОСЛЕ проверки
+{
+    Console.WriteLine($"counter1++ в условии: сработало (проверяли 9), counter1 теперь = {counter1}"); // counter1 = 10
+}
+
+int counter2 = 9;
+if (++counter2 < 10) // сначала counter2 становится 10, и уже 10 < 10 проверяется -> false
+{
+    Console.WriteLine("Это не выведется");
+}
+else
+{
+    Console.WriteLine($"++counter2 в условии: не сработало (проверяли 10), counter2 теперь = {counter2}"); // counter2 = 10
+}
+
