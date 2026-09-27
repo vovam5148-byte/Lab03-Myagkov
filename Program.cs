@@ -172,3 +172,17 @@ else
     Console.WriteLine($"++counter2 в условии: не сработало (проверяли 10), counter2 теперь = {counter2}"); // counter2 = 10
 }
 
+
+Console.WriteLine();
+Console.WriteLine("======================");
+Console.WriteLine("Сумма покупки:");
+double amount = double.Parse(Console.ReadLine());
+Console.Write("Есть ли у вас карта постоянного клиента? (1 - да, 0 - нет): ");
+int Card = int.Parse(Console.ReadLine());
+bool PostCard = (Card == 1);
+Console.WriteLine("Количество товаров в чеке:");
+int itemCount = int.Parse(Console.ReadLine());
+bool eligibleForDiscount = (amount >= 3000 && itemCount >= 3) || PostCard;
+Console.WriteLine("======================");
+Console.WriteLine($"Итоговый результат: {eligibleForDiscount}");
+Console.WriteLine("======================");
