@@ -1,0 +1,15 @@
+C:\Users\EG\Documents\Lab03-Myagkov\bin\Debug\net10.0\Lab03-Myagkov.exe
+C:\Users\EG\Documents\Lab03-Myagkov\bin\Debug\net10.0\Lab03-Myagkov.deps.json
+C:\Users\EG\Documents\Lab03-Myagkov\bin\Debug\net10.0\Lab03-Myagkov.runtimeconfig.json
+C:\Users\EG\Documents\Lab03-Myagkov\bin\Debug\net10.0\Lab03-Myagkov.dll
+C:\Users\EG\Documents\Lab03-Myagkov\bin\Debug\net10.0\Lab03-Myagkov.pdb
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\Lab03-Myagkov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\Lab03-Myagkov.AssemblyInfoInputs.cache
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\Lab03-Myagkov.AssemblyInfo.cs
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\Lab03-Myagkov.csproj.CoreCompileInputs.cache
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\Lab03-Myagkov.sourcelink.json
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\Lab03-Myagkov.dll
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\refint\Lab03-Myagkov.dll
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\Lab03-Myagkov.pdb
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\Lab03-Myagkov.genruntimeconfig.cache
+C:\Users\EG\Documents\Lab03-Myagkov\obj\Debug\net10.0\ref\Lab03-Myagkov.dll
